@@ -4,6 +4,8 @@
 <head>
     <title>Java 3 Web Applications</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/loading.css">
 </head>
 <body>
 <div class="container py-4 text-center">
@@ -29,5 +31,9 @@
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+<script src="js/loading.js"></script>
 </body>
 </html>
