@@ -9,24 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/artist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/artist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="" />
     <list id="e66454ff-3102-4e78-a073-c503d260af0d" name="Changes by Akoi Kollie" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/demos/AnimalCount.java" afterDir="false" />
     </list>
-    <list id="173f5ecd-d3cc-46b2-84e6-ea114fb9037c" name="Changes by Andrew_" comment="" />
-    <list id="915769e6-8a5f-4d97-a1b5-5227b1d9d0c4" name="Changes by dlsjr" comment="" />
-    <list id="1ca0ddf2-cd09-4960-bf5c-824e194dbfe1" name="Changes by donal" comment="" />
-    <list id="fe2e40ad-134f-44dc-8227-245b4505db81" name="Changes by earde" comment="" />
-    <list id="5186b3a3-0cbf-432f-b3a6-798403913a56" name="Changes by jnice" comment="" />
-    <list id="743006cf-370b-4e41-87f8-97ab35601737" name="Changes by Julien" comment="" />
-    <list id="de945256-98b8-4c06-a998-475a7f1aec9f" name="Changes by KateR" comment="" />
-    <list id="9fab349f-2b4e-4d73-910e-60fb6b58d383" name="Changes by rcuar" comment="" />
     <list id="4be2094e-b361-4b2c-b2c7-61c919fb0e0c" name="Changes by wspid" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +233,7 @@
       <updated>1705517799064</updated>
       <workItem from="1705517800666" duration="2965000" />
       <workItem from="1705527618750" duration="1041000" />
-      <workItem from="1705947580514" duration="6837000" />
+      <workItem from="1705947580514" duration="7057000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>
@@ -263,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705948669402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mon jan 22">
+      <created>1705954853325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705954853325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +266,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="wed jan 27" />
     <MESSAGE value="Updating .gitignore with .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating .gitignore with .env" />
+    <MESSAGE value="mon jan 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="mon jan 22" />
   </component>
 </project>
