@@ -1,5 +1,6 @@
 package edu.kirkwood.demos;
 
+import edu.kirkwood.shared.CommunicationService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -21,5 +22,11 @@ public class EmailServlet extends HttpServlet {
         // Create a CommunicationService object, and call a method to send an email.
         // Set a "success" attribute
         // Forward the request to the JSP
+        String email = req.getParameter("email");
+        String subject = req.getParameter("subject");
+        String message = req.getParameter("message");
+        boolean messageSent = CommunicationService.sendEmail(email, subject, message);
+        req.setAttribute("success", messageSent);
+        req.getRequestDispatcher("WEB-INF/demos/email.jsp").forward(req, resp);
     }
 }

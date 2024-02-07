@@ -28,7 +28,7 @@ public class ErrorHandler extends HttpServlet {
         }
         System.err.println(myErrorMsg);
 
-        if(statusCode.equals("500")) {
+        if(!statusCode.equals("404")) {
             String url = getURL(req);
             myErrorMsg = "<html><body><ul>";
             myErrorMsg += "<li>Error code: " + statusCode + "</li>";

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="java3-kirkwood:war" />
+      <artifact name="java3-kirkwood:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,24 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/ErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/email.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/base.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/top.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/artist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/artist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
-    <list id="2b2f4e55-65e0-4ac3-899e-88b0ffc6632d" name="Changes by chris" comment="" />
-    <list id="71426a6a-977c-42b4-8db6-f1810d21df84" name="Changes by KateR" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/demos/EmailServlet.java" afterDir="false" />
-    </list>
-    <list id="99973129-df6b-463b-afa1-307517211a24" name="Changes by Michael" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/demos/EmailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/demos/EmailServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/ErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/ErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/email.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/email.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\k0519415\OneDrive - kirkwood.edu\Kirkwood\Projects\JavaProjects\mon-wed24\java3-kirkwood\src\main\webapp\images\learnx" />
       <recent name="C:\Users\k0519415\OneDrive - kirkwood.edu\Kirkwood\Projects\JavaProjects\mon-wed24\java3-kirkwood\src\main\webapp\js" />
       <recent name="C:\Users\k0519415\OneDrive - kirkwood.edu\Kirkwood\Projects\JavaProjects\mon-wed24\java3-kirkwood\src\main\webapp\WEB-INF\shared" />
     </key>
@@ -275,6 +264,8 @@
       <workItem from="1706119936212" duration="8385000" />
       <workItem from="1706128700468" duration="666000" />
       <workItem from="1706552345141" duration="7531000" />
+      <workItem from="1706725086465" duration="6839000" />
+      <workItem from="1707156945672" duration="7373000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>
