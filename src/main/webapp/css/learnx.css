@@ -1,0 +1,37 @@
+main {
+    min-height: 250px;
+}
+
+.btn-orange {
+    background-color: #f16623;
+    color: white;
+}
+.btn-outline-orange {
+    border-color: #f16623;
+    outline-color: #f16623;
+    color: #f16623;
+    font-weight: bold;
+}
+
+.nav-link {
+    color : #f16623 !important;
+}
+.link-dark {
+    border-bottom: 1px solid #f16623;
+    padding-bottom: 3px;
+}
+
+.nav-logo {
+    height: 32px;
+}
+
+.carousel-caption {
+    margin-bottom: 350px;
+}
+.carousel-caption h5 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 20px;
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="marc-kw-database@marc-kw.mysql.database.azure.com">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.48">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -2138,7 +2138,7 @@ course_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="518" parent="344" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>6</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2199,7 +2199,7 @@ course_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="531" parent="345" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2262,7 +2262,7 @@ course_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="543" parent="347" name="id">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>16</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2315,7 +2315,7 @@ course_id</ColNames>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="554" parent="347" name="update_at">
+    <column id="554" parent="347" name="updated_at">
       <DasType>datetime|0s</DasType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
