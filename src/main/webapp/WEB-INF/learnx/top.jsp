@@ -1,5 +1,5 @@
 <%@include file="/WEB-INF/shared/top.jsp"%>
-<title>LearnX | ${pageTitle}</title>
+<title>${initParam['project1Name']} | ${pageTitle}</title>
 <link rel="shortcut icon" href="${appURL}/images/learnx/learnx-icon.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 <script src="https://kit.fontawesome.com/ce46e6e2d7.js" crossorigin="anonymous"></script>

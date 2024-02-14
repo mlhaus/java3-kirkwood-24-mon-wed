@@ -31,4 +31,8 @@
         <param-name>appURLCloud</param-name>
         <param-value>https://marc-kw.azurewebsites.net</param-value>
     </context-param>
+    <context-param>
+        <param-name>project1Name</param-name>
+        <param-value>LearnX</param-value>
+    </context-param>
 </web-app>
