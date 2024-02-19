@@ -1,6 +1,9 @@
 package edu.kirkwood.learnx.model;
 
+import edu.kirkwood.shared.MyValidator;
+
 import java.time.Instant;
+import java.util.regex.Matcher;
 
 public class User {
     private int id;
@@ -15,6 +18,10 @@ public class User {
     private Instant created_at;
     private Instant last_logged_in;
     private Instant updated_at;
+    
+    public User() {
+        
+    }
 
     public User(int id, String firstName, String lastName, String email, String phone,
                 char[] password, String language, String status, String privileges,
@@ -62,6 +69,10 @@ public class User {
     }
 
     public void setEmail(String email) {
+        Matcher matcher = MyValidator.emailPattern.matcher(email);
+        if(!matcher.matches()) {
+            throw new IllegalArgumentException("Invalid email");
+        }
         this.email = email;
     }
 
@@ -78,6 +89,11 @@ public class User {
     }
 
     public void setPassword(char[] password) {
+        String passwordStr = String.valueOf(password);
+        Matcher matcher = MyValidator.passwordPattern.matcher(passwordStr);
+        if(!matcher.matches()) {
+            throw new IllegalArgumentException("Password must have minimum 8 characters and 3 of 4 (uppercase, lowercase, digit, symbol)");
+        }
         this.password = password;
     }
 

@@ -9,29 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/PrivacyPolicyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/privacy-policy.jsp" afterDir="false" />
+    <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="Completed home page, navigation, footer, and privacy policy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/MyValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251/storage_v2/_src_/schema/learnx.tHoIvg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251/storage_v2/_src_/schema/learnx.tHoIvg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251/storage_v2/_src_/schema/learnx2._tsGAw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251/storage_v2/_src_/schema/learnx2._tsGAw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251/storage_v2/_src_/schema/marc-kw-database.tPlShw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251/storage_v2/_src_/schema/marc-kw-database.tPlShw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/SignupServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/SignupServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/error.jsp" afterDir="false" />
     </list>
-    <list id="78fc2838-d01e-4f2c-87ef-ad91b0e7a4ae" name="Changes by Akoi Kollie" comment="" />
     <list id="59c59ed1-df29-4884-b82f-6a3cce6bca03" name="Changes by Andrew_" comment="" />
-    <list id="1a793e38-c6d9-4347-9ac0-b0b8b13fa5d9" name="Changes by chris" comment="" />
-    <list id="d117c104-6534-492e-81b2-ec5008890846" name="Changes by dlsjr" comment="" />
-    <list id="35e3b473-5c8b-4539-9237-22c0abe340d2" name="Changes by donal" comment="" />
-    <list id="08bc7eb0-ad99-40c3-80dd-302b48017d98" name="Changes by Dragon_Lord" comment="" />
-    <list id="46706398-f020-4feb-886f-7401514b9d68" name="Changes by earde" comment="" />
-    <list id="bf701864-459e-4450-8073-93b0e5c7e6b3" name="Changes by isabe" comment="" />
-    <list id="0a1b65f1-8031-46d1-a5ee-e1efc9f09c75" name="Changes by jmw66" comment="" />
-    <list id="673c01a2-1cb5-46cd-a1af-3bc0df6d77ae" name="Changes by jnice" comment="" />
-    <list id="313a0d90-b4cd-4ccd-9b82-13fb092f3c8c" name="Changes by KateR" comment="" />
-    <list id="1a33afb9-7ae5-4cca-8bd7-51afe4374179" name="Changes by Michael" comment="" />
-    <list id="43b3eb4b-6eec-433c-8f5d-f3548b821fde" name="Changes by wildc" comment="" />
-    <list id="c46e9233-da3e-4f17-a0b5-301a9e8a7723" name="Changes by wspid" comment="" />
+    <list id="1f916b93-684c-4fc5-a59f-b333baaee289" name="Changes by Tosah" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +38,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -317,7 +313,8 @@
       <workItem from="1707334522917" duration="1453000" />
       <workItem from="1707335993114" duration="2531000" />
       <workItem from="1707762525442" duration="7310000" />
-      <workItem from="1707934568090" duration="3241000" />
+      <workItem from="1707934568090" duration="7359000" />
+      <workItem from="1708367114206" duration="6508000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>
@@ -340,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705954853325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed home page, navigation, footer, and privacy policy">
+      <option name="closed" value="true" />
+      <created>1707937856389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707937856389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +356,18 @@
     <MESSAGE value="wed jan 27" />
     <MESSAGE value="Updating .gitignore with .env" />
     <MESSAGE value="mon jan 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="mon jan 22" />
+    <MESSAGE value="Completed home page, navigation, footer, and privacy policy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed home page, navigation, footer, and privacy policy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/SignupServlet.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

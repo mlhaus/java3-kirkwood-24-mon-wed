@@ -10,7 +10,7 @@
             <div class="col-12 text-center">
                 <h2>Oh no!</h2>
                 <p>Either something went wrong or this page doesn't exist.</p>
-                <a href="${appURL}" class="btn btn-primary">Back to home page</a>
+                <a href="index.jsp" class="btn btn-primary">Back to home page</a>
             </div>
         </div>
     </div>
