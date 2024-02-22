@@ -1,5 +1,17 @@
 <%@include file="/WEB-INF/learnx/top.jsp"%>
 <main class="container">
+    
+    <c:choose>
+        <c:when test="${not empty flashMessageSuccess}">
+            <div class="alert alert-success mb-2">
+                ${flashMessageSuccess}
+            </div>
+            <c:remove var="flashMessageSuccess" scope="session"></c:remove>
+        </c:when>
+    </c:choose>
+    
+<%--    JUMBOTRON CODE HERE --%>
+    
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -62,8 +63,17 @@ public class SignupServlet extends HttpServlet {
                 !results.containsKey("password2Error") &&
                 !results.containsKey("agreeError")
         ) {
-            boolean emailSent = UserDAO.add(user);
+            String code = UserDAO.add(user);
             // To do: if the email is sent, redirect to a page for the user to enter their code.
+            if(!code.equals("")) {
+                HttpSession session = req.getSession();
+                session.invalidate(); // Remove any existing session data
+                session = req.getSession();
+                session.setAttribute("code", code);
+                session.setAttribute("email", email);
+                resp.sendRedirect("confirm");
+                return;
+            }
         }
         
         
