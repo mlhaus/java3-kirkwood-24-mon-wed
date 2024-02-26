@@ -21,14 +21,14 @@
     </jsp-config>
 
 
-    <error-page>
-        <error-code>404</error-code>
-        <location>/errorHandler</location>
-    </error-page>
-    <error-page>
-        <exception-type>java.lang.Throwable</exception-type>
-        <location>/errorHandler</location>
-    </error-page>
+<!--    <error-page>-->
+<!--        <error-code>404</error-code>-->
+<!--        <location>/errorHandler</location>-->
+<!--    </error-page>-->
+<!--    <error-page>-->
+<!--        <exception-type>java.lang.Throwable</exception-type>-->
+<!--        <location>/errorHandler</location>-->
+<!--    </error-page>-->
 
     <context-param>
         <param-name>appURLLocal</param-name>

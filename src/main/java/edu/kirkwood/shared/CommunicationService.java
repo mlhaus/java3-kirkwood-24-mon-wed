@@ -20,6 +20,15 @@ public class CommunicationService
                 .buildClient();
         return emailClient;
     }
+    
+    public static String sendNewUserEmail(String email, String code) {
+        String subject = "LearnX New User";
+        String message = "<h2>Welcome to LearnX</h2>";
+        message += "<p>Please enter code <b>" + code + "</b> on the website to activate your account</p>";
+        boolean sent = CommunicationService.sendEmail(email, subject, message);
+        // To do: If the email is not send, delete the user by email and delete the 2fa
+        return sent ? code : "";
+    }
 
     public static boolean sendEmail(String toEmailAddress, String subject, String message)    {
         try {

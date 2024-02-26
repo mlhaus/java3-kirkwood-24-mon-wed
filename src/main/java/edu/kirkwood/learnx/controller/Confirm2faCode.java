@@ -2,6 +2,7 @@ package edu.kirkwood.learnx.controller;
 
 import edu.kirkwood.learnx.data.UserDAO;
 import edu.kirkwood.learnx.model.User;
+import edu.kirkwood.shared.CommunicationService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -11,6 +12,7 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.time.Instant;
+import java.time.ZoneOffset;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,6 +20,14 @@ import java.util.Map;
 public class Confirm2faCode extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String resend = req.getParameter("resend");
+        if(resend != null) {
+            HttpSession session = req.getSession();
+            String codeFromSession = (String)session.getAttribute("code");
+            String email = (String)session.getAttribute("email");
+            CommunicationService.sendNewUserEmail(email, codeFromSession);
+            req.setAttribute("emailSent", "A new email was sent with your access code");
+        }
         req.setAttribute("pageTitle", "Confirm Signup Code");
         req.getRequestDispatcher("WEB-INF/learnx/2fa-confirm.jsp").forward(req,resp);
     }
@@ -38,9 +48,10 @@ public class Confirm2faCode extends HttpServlet {
             User userFromDatabase = UserDAO.get(email);
             userFromDatabase.setStatus("active");
             userFromDatabase.setPrivileges("student");
-            userFromDatabase.setLast_logged_in(Instant.now());
+            // To Do: Get an instant representing UTC 0
+            userFromDatabase.setLast_logged_in(Instant.now().atOffset( ZoneOffset.UTC ).toInstant());
             UserDAO.update(userFromDatabase);
-            userFromDatabase.setPassword("P@SSW0RD".toCharArray());
+            userFromDatabase.setPassword(null);
             session.removeAttribute("code");
             session.removeAttribute("email");
             session.setAttribute("activeUser", userFromDatabase);

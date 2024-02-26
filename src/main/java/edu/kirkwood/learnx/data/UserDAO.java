@@ -89,12 +89,7 @@ public class UserDAO extends Database {
                          String code = resultSet.getString("code");
                          String method = resultSet.getString("method");
                          if(method.equals("email")) {
-                             String subject = "LearnX New User";
-                             String message = "<h2>Welcome to LearnX</h2>";
-                             message += "<p>Please enter code <b>" + code + "</b> on the website to activate your account</p>";
-                             boolean sent = CommunicationService.sendEmail(user.getEmail(), subject, message);
-                             // To do: If the email is not send, delete the user by email and delete the 2fa
-                             return sent ? code : "";
+                             return CommunicationService.sendNewUserEmail(user.getEmail(), code);
                          }
                     }
                 }

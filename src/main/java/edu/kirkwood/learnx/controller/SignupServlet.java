@@ -27,6 +27,9 @@ public class SignupServlet extends HttpServlet {
         String password1 = req.getParameter("inputPassword1");
         String password2 = req.getParameter("inputPassword2");
         String[] terms = req.getParameterValues("checkbox-1");
+        if(password1 == null) {
+            password1 = "";
+        }
         
         Map<String, String> results = new HashMap<>();
         results.put("email", email);
