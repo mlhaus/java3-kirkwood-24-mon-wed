@@ -5,9 +5,9 @@
         <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12">
             <h2>${pageTitle}</h2>
             <c:choose>
-                <c:when test="${not empty results.codeFail}">
-                    <p class="alert alert-danger">
-                        ${results.codeFail}
+                <c:when test="${not empty emailSent}">
+                    <p class="alert alert-success">
+                        ${emailSent}
                     </p>
                 </c:when>
                 <c:when test="${not empty results.codeFail}">

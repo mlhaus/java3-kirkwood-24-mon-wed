@@ -10,23 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="Completed home page, navigation, footer, and privacy policy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/Signin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/SignoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/signin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/Confirm2faCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/Confirm2faCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/SignupServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/SignupServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/2fa-confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/2fa-confirm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
+    <list id="59f3d0c4-8d73-4e7e-8d56-d7458ecf241a" name="Changes by ahale" comment="" />
     <list id="5287bf2f-2708-4606-b105-cf5784e65c9c" name="Changes by Akoi Kollie" comment="" />
+    <list id="433a88e6-0559-4a3c-9376-68045d0e320f" name="Changes by Andrew_" comment="" />
+    <list id="744000b2-b91c-46c2-a667-f3af3293de5e" name="Changes by donal" comment="" />
+    <list id="4e0d479b-07fa-4f67-9f85-6cc9a4bd1d6e" name="Changes by earde" comment="" />
     <list id="0a6a2ad6-6f0d-431d-b70e-ac5da4912544" name="Changes by egish" comment="" />
     <list id="7f8f1f0f-15d6-44eb-866d-363a02d5efeb" name="Changes by jmw66" comment="" />
+    <list id="b40313f0-9e68-421b-a926-988c14050a71" name="Changes by jnice" comment="" />
+    <list id="4b38749c-033d-4cdc-90f4-6cd52187c69c" name="Changes by Michael" comment="" />
+    <list id="3b3c9007-8201-47d9-b686-7ab4a77c795f" name="Changes by mo7amed" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +188,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="eb06dd95-e343-4df4-9824-6a5a224fef4d" />
+        <option name="BASE_DIRECTORY_NAME" value="381b264a-772f-446a-85e5-519c24598892" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -199,7 +196,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56542" />
+        <option name="DEBUG_PORT" value="63532" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -319,6 +316,10 @@
       <workItem from="1708628709162" duration="643000" />
       <workItem from="1708972411095" duration="1233000" />
       <workItem from="1708973650945" duration="5864000" />
+      <workItem from="1708979940216" duration="280000" />
+      <workItem from="1709134302589" duration="3571000" />
+      <workItem from="1709144828271" duration="17000" />
+      <workItem from="1709144904652" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>
