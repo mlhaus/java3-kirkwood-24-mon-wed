@@ -2,12 +2,15 @@ package edu.kirkwood.learnx.data;
 
 import edu.kirkwood.learnx.model.User;
 import edu.kirkwood.shared.CommunicationService;
+import jakarta.servlet.http.HttpServletRequest;
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.sql.*;
+import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class UserDAO extends Database {
 
@@ -121,9 +124,48 @@ public class UserDAO extends Database {
         }
     }
     
+    public static void passwordReset(String email, HttpServletRequest req) {
+        User userFromDatabase = UserDAO.get(email);
+        if(userFromDatabase != null) {
+            try(Connection connection = getConnection()) {
+                String uuid = String.valueOf(UUID.randomUUID());
+                try(CallableStatement statement = connection.prepareCall("{ CALL sp_add_password_reset(?, ?)}")) {
+                    statement.setString(1, email);
+                    statement.setString(2, uuid);
+                    statement.executeUpdate();
+                }
+                CommunicationService.sendPasswordResetEmail(email, uuid, req);
+            } catch(SQLException e) {
+                System.out.println("Likely error with stored procedure");
+                System.out.println(e.getMessage());
+            }
+        }
+    }
     
-    
-    
+    public static String  getPasswordReset(String token) {
+        String email = "";
+        try(Connection connection = getConnection();
+            CallableStatement statement = connection.prepareCall("{ CALL sp_get_password_reset(?)}");
+        ) {
+            statement.setString(1, token);
+            try(ResultSet resultSet = statement.executeQuery()) {
+                if(resultSet.next()) {
+                    Instant now = Instant.now();
+                    Instant created_at = resultSet.getTimestamp("created_at").toInstant();
+                    Duration timeBetween = Duration.between(created_at, now);
+                    long minutesBetween = timeBetween.toMinutes();
+                    // To do: only return the email address if the minutes between is less than 30
+//                    System.out.println(minutesBetween);
+                    email = resultSet.getString("email");
+                    // To do: delete the token if the duration is over 30 minutes 
+                }
+            }
+        } catch(SQLException e) {
+            System.out.println("Likely error with stored procedure");
+            System.out.println(e.getMessage());
+        }
+        return email;
+    }
     
     
     
