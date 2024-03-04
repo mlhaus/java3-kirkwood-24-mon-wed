@@ -10,16 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="Completed home page, navigation, footer, and privacy policy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/NewPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/ResetPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/new-password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/reset-password.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/NewPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/NewPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/CommunicationService.java" afterDir="false" />
     </list>
-    <list id="8552a0b3-790e-4165-ae9f-ed5be4f19d69" name="Changes by ahale" comment="" />
+    <list id="eb3f55ff-f452-482c-85a1-62d9bd0908cf" name="Changes by ahale" comment="" />
     <list id="04af2c8f-4922-47f6-a851-8dd994855b91" name="Changes by Akoi Kollie" comment="" />
     <list id="0d16b86c-b60b-46cb-9615-fd208920c30e" name="Changes by alina" comment="" />
     <list id="75f01fd3-e20f-4a4f-8617-565c02f375b7" name="Changes by Andrew_" comment="" />
@@ -29,16 +24,15 @@
     <list id="07124768-ff94-4d0f-bc34-bc40265d784f" name="Changes by Dragon_Lord" comment="" />
     <list id="5e1c55d6-af16-49b3-a5d6-985947d27608" name="Changes by earde" comment="" />
     <list id="021eaa4e-5726-467f-b569-6fe85295b1f3" name="Changes by egish" comment="" />
-    <list id="aa026b48-d2a4-4a07-b78e-e9c7d2ddb606" name="Changes by jmw66" comment="" />
     <list id="21fed5b5-ef04-4b9d-ab89-58b46c424c76" name="Changes by jnice" comment="" />
     <list id="33d381c8-8285-404c-aa5b-35a890dd61bb" name="Changes by KateR" comment="" />
     <list id="750da715-a967-4305-a5a2-b397aec685d3" name="Changes by kirst" comment="" />
     <list id="a0e52778-75eb-42ce-abd3-57ccdb74af8d" name="Changes by Michael" comment="" />
-    <list id="1652b4ad-e83b-4442-8f06-7db5b5af0402" name="Changes by miyadaabas" comment="" />
-    <list id="9142e163-7e78-4b6b-a581-14f44e5afbce" name="Changes by mo7amed" comment="" />
+    <list id="3db4c4f5-7bc5-4680-9c15-1ccf64d807ea" name="Changes by miyadaabas" comment="" />
     <list id="c5d43d7a-903d-4c55-9f72-a4d338a9860b" name="Changes by ryalie" comment="" />
-    <list id="7731da0a-99c8-4c8d-871d-8f822466d426" name="Changes by TheBowl" comment="" />
+    <list id="00e6a8f2-1a30-422c-a8c0-2653275676f4" name="Changes by TheBowl" comment="" />
     <list id="a4ac36ae-4645-4414-a2f1-e2988ab9961e" name="Changes by Tosah" comment="" />
+    <list id="53f08554-3b71-4012-b5e9-2981b16a1e47" name="Changes by wildc" comment="" />
     <list id="303710dc-dee7-4c35-9208-5c6a8990a190" name="Changes by wspid" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +336,7 @@
       <workItem from="1709144828271" duration="17000" />
       <workItem from="1709144904652" duration="6750000" />
       <workItem from="1709576226846" duration="633000" />
-      <workItem from="1709576868547" duration="3514000" />
+      <workItem from="1709576868547" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>

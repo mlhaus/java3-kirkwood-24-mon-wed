@@ -157,7 +157,7 @@ public class UserDAO extends Database {
                     // To do: only return the email address if the minutes between is less than 30
 //                    System.out.println(minutesBetween);
                     email = resultSet.getString("email");
-                    // To do: delete the token if the duration is over 30 minutes 
+                    // To do: delete the token if the duration is over 30 minutes
                 }
             }
         } catch(SQLException e) {
@@ -165,6 +165,20 @@ public class UserDAO extends Database {
             System.out.println(e.getMessage());
         }
         return email;
+    }
+
+    public static void updatePassword(User user) {
+        try(Connection connection = getConnection();
+            CallableStatement statement = connection.prepareCall("{ CALL sp_update_user_password(?, ?)}")
+        ) {
+            statement.setString(1, user.getEmail());
+            String hashedPassword = BCrypt.hashpw(String.valueOf(user.getPassword()), BCrypt.gensalt(12));
+            statement.setString(2, hashedPassword);
+            statement.executeUpdate();
+        } catch(SQLException e) {
+            System.out.println("Likely error with stored procedure");
+            System.out.println(e.getMessage());
+        }
     }
     
     
