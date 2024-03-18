@@ -10,11 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="Completed home page, navigation, footer, and privacy policy">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/EditProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/edit-profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/left-side-bar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/AllUsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/AllUsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/Signin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/Signin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <list id="eb3f55ff-f452-482c-85a1-62d9bd0908cf" name="Changes by ahale" comment="" />
+    <list id="f3d4af9e-fdd5-4bd6-90b0-d82006311fca" name="Changes by alina" comment="" />
+    <list id="d182d964-d8a7-4ab1-a3db-278615010cb3" name="Changes by Andrew_" comment="" />
+    <list id="bd53f1c6-c371-4165-a184-838ad09df2e1" name="Changes by chris" comment="" />
+    <list id="cf2d3cf2-b6da-4639-a742-568551a43ca4" name="Changes by dlsjr" comment="" />
+    <list id="bde3f996-0692-4369-9fce-95fbc095748d" name="Changes by donal" comment="" />
+    <list id="89a46666-c0cf-48ed-a5b7-71e79fa381ea" name="Changes by Dragon_Lord" comment="" />
+    <list id="b5cc7245-6fbe-4704-97eb-8fab77bcf3df" name="Changes by earde" comment="" />
+    <list id="b3d16b15-53ec-4ffd-8f74-4a876fe70fa1" name="Changes by egish" comment="" />
+    <list id="e5f1e643-c477-4580-8cda-f297f39a11be" name="Changes by jmw66" comment="" />
+    <list id="fdadfdb1-2187-4bd6-a4ac-6bb6c91d42c4" name="Changes by jnice" comment="" />
+    <list id="4c2c4e62-ae8f-4b8c-8753-ddad8adb9262" name="Changes by Julien" comment="" />
+    <list id="b155e9fa-fb07-4413-aa6d-618f6ca6af02" name="Changes by KateR" comment="" />
+    <list id="a68f300a-13cd-4caa-a65e-c943e1d61b94" name="Changes by kirst" comment="" />
+    <list id="9808cc9e-2b01-4a37-8b7d-98f09552252d" name="Changes by Michael" comment="" />
+    <list id="eb14e385-6dfb-48ae-8358-ba8905a19b63" name="Changes by miyadaabas" comment="" />
+    <list id="745ed273-52f0-465c-8bc8-bbc7b896dc53" name="Changes by mo7amed" comment="" />
+    <list id="ce50681c-61ea-47b8-adf6-9a7f6716e983" name="Changes by Tosah" comment="" />
+    <list id="2a15fbd3-342d-42b4-92a5-7d59912feac3" name="Changes by wspid" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

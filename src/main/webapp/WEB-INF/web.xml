@@ -5,7 +5,7 @@
          version="6.0">
 
     <session-config>
-        <session-timeout>15</session-timeout>
+        <session-timeout>60</session-timeout>
         <tracking-mode>COOKIE</tracking-mode>
     </session-config>
 
@@ -21,10 +21,10 @@
     </jsp-config>
 
 
-<!--    <error-page>-->
-<!--        <error-code>404</error-code>-->
-<!--        <location>/errorHandler</location>-->
-<!--    </error-page>-->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/errorHandler</location>
+    </error-page>
 <!--    <error-page>-->
 <!--        <exception-type>java.lang.Throwable</exception-type>-->
 <!--        <location>/errorHandler</location>-->

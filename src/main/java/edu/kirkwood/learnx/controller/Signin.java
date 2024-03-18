@@ -20,6 +20,8 @@ import java.util.Map;
 public class Signin extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String redirect = req.getParameter("redirect");
+        req.setAttribute("redirect", redirect);
         req.setAttribute("pageTitle", "Sign in");
         req.getRequestDispatcher("WEB-INF/learnx/signin.jsp").forward(req, resp);
     }
@@ -29,6 +31,7 @@ public class Signin extends HttpServlet {
         String email = req.getParameter("inputEmail1");
         String password1 = req.getParameter("inputPassword1");
         String[] remember = req.getParameterValues("checkbox-1");
+        String redirect = req.getParameter("redirect");
         Map<String, String> results = new HashMap<>();
         results.put("email", email);
         results.put("password1", password1);
@@ -55,11 +58,15 @@ public class Signin extends HttpServlet {
                     userFromDatabase.setPassword(null);
                     HttpSession session = req.getSession();
                     session.setAttribute("activeUser", userFromDatabase);
-                    session.setAttribute("flashMessageSuccess", "Welcome Back!");
                     if(remember != null && remember[0].equals("yes")) {
                         session.setMaxInactiveInterval(7 * 24 * 60 * 60); // 7 days
                     }
-                    resp.sendRedirect("learnx");
+                    if(redirect != null && !redirect.equals("")) {
+                        resp.sendRedirect(redirect);
+                    } else {
+                        session.setAttribute("flashMessageSuccess", "Welcome Back!");
+                        resp.sendRedirect("learnx");
+                    }
                     return;
                 }
             }

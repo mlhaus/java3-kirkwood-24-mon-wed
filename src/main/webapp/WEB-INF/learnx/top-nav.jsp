@@ -7,11 +7,23 @@
         </div>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-dark">Home</a></li>
-            <li><a href="#" class="nav-link px-2">Features</a></li>
-            <li><a href="#" class="nav-link px-2">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2">FAQs</a></li>
-            <li><a href="#" class="nav-link px-2">About</a></li>
+            <li><a href="${appURL}/learnx" class="nav-link px-2 link-dark">Home</a></li>
+            <c:choose>
+                
+            <c:when test="${sessionScope.activeUser.privileges eq 'student'}">
+            <li><a href="#" class="nav-link px-2">Student Dashboard</a></li>
+            </c:when>
+
+            <c:when test="${sessionScope.activeUser.privileges eq 'teacher'}">
+            <li><a href="#" class="nav-link px-2">Teacher Dashboard</a></li>
+            </c:when>
+
+            <c:when test="${sessionScope.activeUser.privileges eq 'admin'}">
+            <li><a href="#" class="nav-link px-2">Admin Dashboard</a></li>
+            </c:when>
+                
+            </c:choose>
+            
         </ul>
 
         <div class="col-md-3 text-end">

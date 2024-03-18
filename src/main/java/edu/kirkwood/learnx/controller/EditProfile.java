@@ -1,6 +1,5 @@
 package edu.kirkwood.learnx.controller;
 
-import edu.kirkwood.learnx.data.UserDAO;
 import edu.kirkwood.learnx.model.User;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -10,22 +9,20 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
-import java.util.List;
 
-@WebServlet("/all-users")
-public class AllUsersServlet extends HttpServlet {
+@WebServlet("/edit-profile")
+public class EditProfile extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
         User userFromSession = (User)session.getAttribute("activeUser");
-        if(userFromSession == null || !userFromSession.getStatus().equals("active") || !userFromSession.getPrivileges().equals("admin")) {
-            // Display a 404 error if not logged in
-            resp.sendError(HttpServletResponse.SC_NOT_FOUND);
+        if(userFromSession == null) {
+            // Redirect non-logged in user to login page
+            session.setAttribute("flashMessageWarning", "You must be logged in to view this content.");
+            resp.sendRedirect("signin?redirect=edit-profile");
             return;
         }
-        List<User> users = UserDAO.getAll();
-        req.setAttribute("users", users);
-        req.setAttribute("pageTitle", "All Users");
-        req.getRequestDispatcher("WEB-INF/learnx/all-users.jsp").forward(req, resp);
+        req.setAttribute("pageTitle", "Edit profile");
+        req.getRequestDispatcher("WEB-INF/learnx/edit-profile.jsp").forward(req, resp);
     }
 }
