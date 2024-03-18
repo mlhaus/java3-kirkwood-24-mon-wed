@@ -10,30 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="Completed home page, navigation, footer, and privacy policy">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8b4d30d0-562e-4d8f-9c6c-1b8523131251.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/NewPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/NewPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" afterDir="false" />
     </list>
     <list id="eb3f55ff-f452-482c-85a1-62d9bd0908cf" name="Changes by ahale" comment="" />
-    <list id="04af2c8f-4922-47f6-a851-8dd994855b91" name="Changes by Akoi Kollie" comment="" />
-    <list id="0d16b86c-b60b-46cb-9615-fd208920c30e" name="Changes by alina" comment="" />
-    <list id="75f01fd3-e20f-4a4f-8617-565c02f375b7" name="Changes by Andrew_" comment="" />
-    <list id="0deb1d39-5e6d-4ec3-83be-fa13704d2d99" name="Changes by chris" comment="" />
-    <list id="00aa31e3-7892-49f3-863b-c82ff376be36" name="Changes by dlsjr" comment="" />
-    <list id="f78e3f82-7214-4013-b2d2-e765128a21d3" name="Changes by donal" comment="" />
-    <list id="07124768-ff94-4d0f-bc34-bc40265d784f" name="Changes by Dragon_Lord" comment="" />
-    <list id="5e1c55d6-af16-49b3-a5d6-985947d27608" name="Changes by earde" comment="" />
-    <list id="021eaa4e-5726-467f-b569-6fe85295b1f3" name="Changes by egish" comment="" />
-    <list id="21fed5b5-ef04-4b9d-ab89-58b46c424c76" name="Changes by jnice" comment="" />
-    <list id="33d381c8-8285-404c-aa5b-35a890dd61bb" name="Changes by KateR" comment="" />
-    <list id="750da715-a967-4305-a5a2-b397aec685d3" name="Changes by kirst" comment="" />
-    <list id="a0e52778-75eb-42ce-abd3-57ccdb74af8d" name="Changes by Michael" comment="" />
-    <list id="3db4c4f5-7bc5-4680-9c15-1ccf64d807ea" name="Changes by miyadaabas" comment="" />
-    <list id="c5d43d7a-903d-4c55-9f72-a4d338a9860b" name="Changes by ryalie" comment="" />
-    <list id="00e6a8f2-1a30-422c-a8c0-2653275676f4" name="Changes by TheBowl" comment="" />
-    <list id="a4ac36ae-4645-4414-a2f1-e2988ab9961e" name="Changes by Tosah" comment="" />
-    <list id="53f08554-3b71-4012-b5e9-2981b16a1e47" name="Changes by wildc" comment="" />
-    <list id="303710dc-dee7-4c35-9208-5c6a8990a190" name="Changes by wspid" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -73,33 +57,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.UserDAO.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.13.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "java3-kirkwood.wasFacetEverAdded": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mlhau/OneDrive - kirkwood.edu/Kirkwood/Projects/JavaProjects/thr-night-24/java3-kirkwood",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.UserDAO.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.13.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;java3-kirkwood.wasFacetEverAdded&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mlhau/OneDrive - kirkwood.edu/Kirkwood/Projects/JavaProjects/thr-night-24/java3-kirkwood&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mlhau\OneDrive - kirkwood.edu\Kirkwood\Projects\JavaProjects\mon-wed24\java3-kirkwood\src\main\webapp\images\learnx" />
@@ -281,10 +265,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UserDAO" />
-      <item itemvalue="Application.CommunicationService" />
       <item itemvalue="Application.AnimalCount" />
+      <item itemvalue="Application.CommunicationService" />
       <item itemvalue="Application.JsonReader" />
+      <item itemvalue="Application.UserDAO" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.13" />
     </list>
     <recent_temporary>
@@ -295,13 +279,6 @@
         <item itemvalue="Application.JsonReader" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -336,7 +313,9 @@
       <workItem from="1709144828271" duration="17000" />
       <workItem from="1709144904652" duration="6750000" />
       <workItem from="1709576226846" duration="633000" />
-      <workItem from="1709576868547" duration="6268000" />
+      <workItem from="1709576868547" duration="7355000" />
+      <workItem from="1709749611294" duration="4000" />
+      <workItem from="1709794912352" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>
