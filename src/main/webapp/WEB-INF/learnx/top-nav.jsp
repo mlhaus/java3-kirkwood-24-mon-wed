@@ -29,12 +29,12 @@
         <div class="col-md-3 text-end">
             <c:choose>
                 <c:when test="${empty sessionScope.activeUser}">
-                    <a href="${appURL}/signin" type="button" class="btn btn-outline-orange me-2">Sign in</a>
-                    <a href="${appURL}/signup" type="button" class="btn btn-orange">Sign up</a>
+                    <a href="${appURL}/signin" class="btn btn-outline-orange me-2">Sign in</a>
+                    <a href="${appURL}/signup" class="btn btn-orange">Sign up</a>
                 </c:when>
                 <c:otherwise>
-                    <a href="${appURL}/signout" type="button" class="btn btn-outline-orange me-2">Sign out</a>
-                    <a href="${appURL}/edit-profile" type="button" class="btn btn-orange">Edit Profile</a>
+                    <a href="${appURL}/signout" class="btn btn-outline-orange me-2">Sign out</a>
+                    <a href="${appURL}/edit-profile" class="btn btn-orange">Edit Profile</a>
                 </c:otherwise>
             </c:choose>
             

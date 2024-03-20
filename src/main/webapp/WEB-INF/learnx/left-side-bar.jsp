@@ -1,4 +1,6 @@
 <div class="col-xl-3">
+    
+    
     <!-- Responsive offcanvas body START -->
     <div class="offcanvas-xl offcanvas-end" tabindex="-1" id="offcanvasSidebar">
         <!-- Offcanvas header -->
