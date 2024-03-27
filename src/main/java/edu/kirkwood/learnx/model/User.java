@@ -81,6 +81,10 @@ public class User {
     }
 
     public void setPhone(String phone) {
+        Matcher matcher = MyValidator.phonePattern.matcher(phone);
+        if(!matcher.matches()) {
+            throw new IllegalArgumentException("Invalid phone number");
+        }
         this.phone = phone;
     }
 
@@ -105,6 +109,10 @@ public class User {
     }
 
     public void setLanguage(String language) {
+        Matcher matcher = MyValidator.languagePattern.matcher(language);
+        if(!matcher.matches()) {
+            throw new IllegalArgumentException("Invalid language");
+        }
         this.language = language;
     }
 

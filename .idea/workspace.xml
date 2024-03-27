@@ -10,35 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7ea5d4-03af-4508-83da-0c58d89759bc" name="Changes" comment="Completed home page, navigation, footer, and privacy policy">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/left-side-bar-header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/DeleteAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/delete-account.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/controller/EditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/data/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/learnx/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/MyValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/MyValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/edit-profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/edit-profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/left-side-bar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/left-side-bar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shared/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/left-side-bar-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/left-side-bar-header.jsp" afterDir="false" />
     </list>
-    <list id="116f2e62-d4bf-4642-83da-4097cd108a19" name="Changes by ahale" comment="" />
-    <list id="3668ca60-fd77-46b4-9b79-a428d202cee0" name="Changes by Akoi Kollie" comment="" />
-    <list id="34bf1f32-9aee-4a74-9fd2-e865534d13b4" name="Changes by Andrew_" comment="" />
-    <list id="c3fdfadc-8fe8-4ba7-99d8-8319bd52a42b" name="Changes by chris" comment="" />
-    <list id="fa4d1640-1295-466f-ae40-f19e47d0cf68" name="Changes by dlsjr" comment="" />
-    <list id="89a46666-c0cf-48ed-a5b7-71e79fa381ea" name="Changes by Dragon_Lord" comment="" />
-    <list id="b5cc7245-6fbe-4704-97eb-8fab77bcf3df" name="Changes by earde" comment="" />
-    <list id="acbe3a7a-be48-4df8-a300-bd32672cc3d8" name="Changes by jmw66" comment="" />
-    <list id="88603537-df90-4206-884a-5e0c4a738844" name="Changes by jnice" comment="" />
-    <list id="08776078-a686-417d-85b8-3ee11d6830ca" name="Changes by Julien" comment="" />
-    <list id="28384ada-2a24-4654-9c08-a48e250b0be8" name="Changes by KateR" comment="" />
-    <list id="866f2e45-dd23-4a0f-a43b-4a4f6da28ccf" name="Changes by kirst" comment="" />
-    <list id="819ba0b5-1643-4f30-8738-92819565562e" name="Changes by Michael" comment="" />
-    <list id="eb14e385-6dfb-48ae-8358-ba8905a19b63" name="Changes by miyadaabas" comment="" />
-    <list id="c4d1ea90-5300-4b60-a008-040be4a36615" name="Changes by mo7amed" comment="" />
-    <list id="f0dac748-1c6d-46c9-83ad-f0f1d5310599" name="Changes by Tosah" comment="" />
-    <list id="6bc24236-a315-4b02-8ac1-de2ecbac0e29" name="Changes by wildc" comment="" />
-    <list id="2a15fbd3-342d-42b4-92a5-7d59912feac3" name="Changes by wspid" comment="" />
+    <list id="b3b50e1b-5389-45d2-9be9-469a603bd4f8" name="Changes by kirst" comment="" />
+    <list id="09ce5e80-08e9-4e38-9a26-594eef4af072" name="Changes by miyadaabas" comment="" />
+    <list id="d8d0c155-f550-4c15-82e9-dce1c21ff8dd" name="Changes by wildc" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,33 +66,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.UserDAO.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.13.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "java3-kirkwood.wasFacetEverAdded": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mlhau/OneDrive - kirkwood.edu/Kirkwood/Projects/JavaProjects/thr-night-24/java3-kirkwood",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.UserDAO.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.13.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;java3-kirkwood.wasFacetEverAdded&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mlhau/OneDrive - kirkwood.edu/Kirkwood/Projects/JavaProjects/thr-night-24/java3-kirkwood&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mlhau\OneDrive - kirkwood.edu\Kirkwood\Projects\JavaProjects\mon-wed24\java3-kirkwood\src\main\webapp\images\learnx" />
@@ -353,7 +338,9 @@
       <workItem from="1710911713136" duration="553000" />
       <workItem from="1710912291441" duration="1535000" />
       <workItem from="1710955036812" duration="152000" />
-      <workItem from="1710955202649" duration="6737000" />
+      <workItem from="1710955202649" duration="8289000" />
+      <workItem from="1711387195965" duration="6914000" />
+      <workItem from="1711560022350" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="wed jan 27">
       <created>1705528062338</created>

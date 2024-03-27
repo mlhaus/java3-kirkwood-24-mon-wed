@@ -123,6 +123,19 @@ public class UserDAO extends Database {
             System.out.println(e.getMessage());
         }
     }
+
+    public static void delete(User user) {
+        try (Connection connection = getConnection()) {
+            if (connection != null) {
+                try (CallableStatement statement = connection.prepareCall("{CALL sp_delete_user(?)}")) {
+                    statement.setInt(1, user.getId());
+                    statement.executeUpdate();
+                }
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
     
     public static void passwordReset(String email, HttpServletRequest req) {
         User userFromDatabase = UserDAO.get(email);
